@@ -22,6 +22,11 @@ public class Voto {
     @ManyToOne
     @JoinColumn(name = "CandidatoId")
     private Candidato candidato;
+    
+    // PK Zona
+ 	@ManyToOne
+ 	@JoinColumn(name = "ZonaId")
+ 	private Zona zona;
 
     public Long getId() {
         return id;
