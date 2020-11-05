@@ -52,4 +52,12 @@ public class Voto {
         this.candidato = candidato;
     }
 
+	public Zona getZona() {
+		return zona;
+	}
+
+	public void setZona(Zona zona) {
+		this.zona = zona;
+	}
+
 }
